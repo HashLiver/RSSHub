@@ -1843,6 +1843,9 @@
     "/fx-markets/fx-markets/:channel": [
         "mikkkee"
     ],
+    "/fzmtr/announcements": [
+        "HankChow"
+    ],
     "/gameapps/": [
         "TonyRL"
     ],
@@ -2304,6 +2307,9 @@
     ],
     "/guangdiu/:query?": [
         "Fatpandac"
+    ],
+    "/guangzhoumetro/news": [
+        "HankChow"
     ],
     "/guanhai": [
         "TonyRL"
