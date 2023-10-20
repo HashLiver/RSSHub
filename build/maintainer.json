@@ -533,13 +533,19 @@
     "/asiantolick/": [
         "nczitzk"
     ],
-    "/asiantolick/category/:id?": [
+    "/asiantolick/category/:id": [
         "nczitzk"
     ],
-    "/asiantolick/tag/:id?": [
+    "/asiantolick/page/news": [
         "nczitzk"
     ],
-    "/asiantolick/search/:id?": [
+    "/asiantolick/page/:id": [
+        "nczitzk"
+    ],
+    "/asiantolick/search/:keyword": [
+        "nczitzk"
+    ],
+    "/asiantolick/tag/:id": [
         "nczitzk"
     ],
     "/asus/bios/:model": [
@@ -1000,6 +1006,9 @@
     "/caixin/:column/:category": [
         "idealclover"
     ],
+    "/caixinglobal/latest": [
+        "TonyRL"
+    ],
     "/camchina/:id?": [
         "nczitzk"
     ],
@@ -1175,6 +1184,9 @@
     ],
     "/chinafactcheck/": [
         "kdanfly"
+    ],
+    "/chinaisa/:id?": [
+        "nczitzk"
     ],
     "/chinanews/": [
         "yuxinliu-alex"
@@ -2314,6 +2326,14 @@
         "CcccFz"
     ],
     "/gocn/jobs": [
+        "AtlanCI",
+        "CcccFz"
+    ],
+    "/gocn/news": [
+        "AtlanCI"
+    ],
+    "/gocn/topics": [
+        "AtlanCI",
         "CcccFz"
     ],
     "/gogoanimehd/recent-releases": [
@@ -2609,6 +2629,9 @@
         "ShuiHuo"
     ],
     "/gov/xuzhou/hrss/:category?": [
+        "nczitzk"
+    ],
+    "/gov/zhejiang/gwy/:category?/:column?": [
         "nczitzk"
     ],
     "/gq/tw/:caty?/:subcaty?": [
@@ -4947,7 +4970,7 @@
     "/reactnewsletter/": [
         "meixger"
     ],
-    "/readhub/:category?/:overview?": [
+    "/readhub/:category?": [
         "WhiteWorld",
         "nczitzk",
         "Fatpandac"
@@ -5615,6 +5638,9 @@
     ],
     "/szu/yz/:type?": [
         "NagaruZ"
+    ],
+    "/tableau/app/discover/viz-of-the-day": [
+        "KaiyoungYu"
     ],
     "/taiwannews/hot/:lang?": [
         "TonyRL"
@@ -6910,6 +6936,9 @@
     ],
     "/zju/physics/:type": [
         "Caicailiushui"
+    ],
+    "/zjuvag/blog": [
+        "KaiyoungYu"
     ],
     "/zodgame/forum/:fid?": [
         "FeCCC"

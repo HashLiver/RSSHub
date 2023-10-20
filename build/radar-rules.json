@@ -2927,35 +2927,50 @@
     "_name": "Asian to lick",
     ".": [
       {
-        "title": "首页",
-        "docs": "https://docs.rsshub.app/routes/picture#asian-to-lick-shou-ye",
+        "title": "Top rated",
+        "docs": "https://docs.rsshub.app/routes/picture#asian-to-lick-top-rated",
         "source": [
           "/"
         ],
         "target": "/asiantolick"
       },
       {
-        "title": "分类",
-        "docs": "https://docs.rsshub.app/routes/picture#asian-to-lick-fen-lei",
+        "title": "News",
+        "docs": "https://docs.rsshub.app/routes/picture#asian-to-lick-news",
         "source": [
-          "/"
-        ]
-      },
-      {
-        "title": "标签",
-        "docs": "https://docs.rsshub.app/routes/picture#asian-to-lick-biao-qian",
-        "source": [
-          "/"
-        ]
-      },
-      {
-        "title": "搜索",
-        "docs": "https://docs.rsshub.app/routes/picture#asian-to-lick-sou-suo",
-        "source": [
-          "/search/:keyword",
-          "/"
+          "/page/news"
         ],
-        "target": "/asiantolick/search/:keyword?"
+        "target": "/asiantolick/page/news"
+      },
+      {
+        "title": "Category",
+        "docs": "https://docs.rsshub.app/routes/picture#asian-to-lick-category",
+        "source": [
+          "/"
+        ]
+      },
+      {
+        "title": "Tag",
+        "docs": "https://docs.rsshub.app/routes/picture#asian-to-lick-tag",
+        "source": [
+          "/"
+        ]
+      },
+      {
+        "title": "Search",
+        "docs": "https://docs.rsshub.app/routes/picture#asian-to-lick-search",
+        "source": [
+          "/search/:keyword"
+        ],
+        "target": "/asiantolick/search/:keyword"
+      },
+      {
+        "title": "Page",
+        "docs": "https://docs.rsshub.app/routes/picture#asian-to-lick-page",
+        "source": [
+          "/page/:id"
+        ],
+        "target": "/asiantolick/page/:id"
       }
     ]
   },
@@ -4444,6 +4459,20 @@
       }
     ]
   },
+  "caixinglobal.com": {
+    "_name": "Caixin Global",
+    ".": [
+      {
+        "title": "Latest News",
+        "docs": "https://docs.rsshub.app/routes/traditional-media#caixin-global",
+        "source": [
+          "/news",
+          "/"
+        ],
+        "target": "/caixinglobal/latest"
+      }
+    ]
+  },
   "cste.org.cn": {
     "_name": "中国技术经济学会",
     ".": [
@@ -5124,6 +5153,18 @@
           "/"
         ],
         "target": "/chinafactcheck"
+      }
+    ]
+  },
+  "chinaisa.org.cn": {
+    "_name": "中国钢铁工业协会",
+    ".": [
+      {
+        "title": "栏目",
+        "docs": "https://docs.rsshub.app/routes/new-media#zhong-guo-gang-tie-gong-ye-xie-hui-lan-mu",
+        "source": [
+          "/gxportal/xfgl/portal/list.html"
+        ]
       }
     ]
   },
@@ -10398,12 +10439,20 @@
     "_name": "GoCN",
     ".": [
       {
-        "title": "文章",
+        "title": "最新动态",
         "docs": "https://docs.rsshub.app/routes/programming#GoCN",
         "source": [
           "/"
         ],
-        "target": "/gocn"
+        "target": "/gocn/news"
+      },
+      {
+        "title": "每日新闻",
+        "docs": "https://docs.rsshub.app/routes/programming#GoCN",
+        "source": [
+          "/"
+        ],
+        "target": "/gocn/topics"
       },
       {
         "title": "招聘",
@@ -11734,6 +11783,21 @@
         "source": [
           "/*"
         ]
+      }
+    ]
+  },
+  "zjks.gov.cn": {
+    "_name": "浙江省公务员考试录用网",
+    ".": [
+      {
+        "title": "地市专栏",
+        "docs": "https://docs.rsshub.app/routes/government#zhe-jiang-sheng-gong-wu-yuan-kao-shi-lu-yong-wang",
+        "source": [
+          "/zjgwy/website/init.htm",
+          "/zjgwy/website/queryDetail.htm",
+          "/zjgwy/website/queryMore.htm"
+        ],
+        "target": "/gov/zhejiang/gwy"
       }
     ]
   },
@@ -21733,7 +21797,7 @@
     ".": [
       {
         "title": "分类",
-        "docs": "https://docs.rsshub.app/routes/new-media#readhub",
+        "docs": "https://docs.rsshub.app/routes/new-media#readhub-fen-lei",
         "source": [
           "/",
           "/:category"
@@ -24901,6 +24965,15 @@
           "/"
         ],
         "target": "/szu/yz/2"
+      }
+    ]
+  },
+  "tableau.com": {
+    "_name": "Tableau",
+    "public": [
+      {
+        "title": "Viz of the day",
+        "docs": "https://docs.rsshub.app/routes/study#tableau"
       }
     ]
   },
@@ -29880,6 +29953,15 @@
           "/*path",
           "/"
         ]
+      }
+    ]
+  },
+  "zjuvag.org": {
+    "_name": "浙江大学可视分析小组",
+    ".": [
+      {
+        "title": "博客",
+        "docs": "https://docs.rsshub.app/routes/blog#zhe-jiang-da-xue-ke-shi-fen-xi-xiao-zu"
       }
     ]
   },
