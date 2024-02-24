@@ -1313,6 +1313,9 @@
     "/chuapp/index/:category?": [],
     "/chuhaibiji": [],
     "/cia/foia-annual-report": [],
+    "/cib/whpj/:format?": [
+        "Qixingchen"
+    ],
     "/ciidbnu/:id?": [
         "nczitzk"
     ],
@@ -3333,6 +3336,9 @@
     ],
     "/houxu/memory": [
         "nczitzk"
+    ],
+    "/howtoforge": [
+        "cnkmmk"
     ],
     "/hoyolab/news/:language/:gids/:type": [
         "ZenoTian"
