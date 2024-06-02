@@ -256,6 +256,9 @@
   "/abskoop/nsfw": [
     "zhenhappy"
   ],
+  "/academia/topic/:interest": [
+    "K33k0"
+  ],
   "/accessbriefing/:category{.+}?": [
     "nczitzk"
   ],
@@ -4631,6 +4634,12 @@
   "/ps/trophy/:id": [
     "DIYgod"
   ],
+  "/psyche/topic/:topic": [
+    "emdoe"
+  ],
+  "/psyche/type/:type": [
+    "emdoe"
+  ],
   "/pts/curations": [
     "nczitzk"
   ],
@@ -5434,6 +5443,9 @@
     "nczitzk"
   ],
   "/surfshark/blog/:category{.+}?": [],
+  "/sustainabilitymag/articles": [
+    "mintyfrankie"
+  ],
   "/sustech/bidding": [
     "sparkcyf"
   ],
