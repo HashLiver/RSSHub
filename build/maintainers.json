@@ -3807,9 +3807,6 @@
   "/mvm/:category?": [
     "nczitzk"
   ],
-  "/my-formosa/": [
-    "dzx-dzx"
-  ],
   "/mydrivers/cid/:id?": [],
   "/mydrivers/zhibo": [],
   "/mydrivers/:category{.+}?": [],
@@ -4895,9 +4892,6 @@
   "/ruancan/": [],
   "/ruancan/search/:keyword?": [],
   "/ruancan/user/:id": [],
-  "/ruc/ai/:category?": [
-    "yinhanyan"
-  ],
   "/ruc/hr/:category?": [
     "nczitzk"
   ],
@@ -5422,9 +5416,6 @@
   ],
   "/steam/search/:params": [
     "moppman"
-  ],
-  "/steam/workshopsearch/:appid?/:routeParams?": [
-    "NyaaaDoge"
   ],
   "/stheadline/std/realtime/:category{.+}?": [],
   "/stockedge/daily-updates/news": [
